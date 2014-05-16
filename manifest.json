@@ -1,0 +1,14 @@
+{
+  "name": "Anarchify",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "Easy sharing for anarchy",
+  "permissions": [
+    "contextMenus"
+  ],
+  "background": {
+    "scripts": ["anarchify.js"]
+  },
+  "options_page": "options.html",
+  "content_security_policy": "script-src 'self' https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js; object-src 'self'"
+}
